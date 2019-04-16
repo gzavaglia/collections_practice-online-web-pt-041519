@@ -47,4 +47,5 @@ def sum_array(array)
     sum += array[i]
     i += 1 
   end #end while 
+  sum 
 end 
