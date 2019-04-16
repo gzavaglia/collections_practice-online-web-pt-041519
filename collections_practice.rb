@@ -41,5 +41,10 @@ def find_a(array)
 end 
 
 def sum_array(array)
-  
+  i = 0 
+  sum = 0 
+  while i < array.length
+    sum += array[i]
+    i += 1 
+  end #end while 
 end 
