@@ -1,3 +1,4 @@
+binding.pry 
 def sort_array_asc(array)
   array.sort 
 end 
@@ -25,6 +26,6 @@ end
 
 def kesha_maker(array)
   array.each do |word|
-    
+    binding.pry 
   end #do 
 end 
