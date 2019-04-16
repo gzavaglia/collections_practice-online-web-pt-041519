@@ -51,6 +51,6 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  wut = array.each_with_index.collect{|element, index|}
+  wut = [1,2].each_with_index.collect{|element, index|}
   binding.pry 
 end 
