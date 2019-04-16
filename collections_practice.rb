@@ -30,3 +30,6 @@ def kesha_maker(array)
   end #do 
 end 
 
+def find_a(array)
+  
+end 
