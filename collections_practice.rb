@@ -51,6 +51,9 @@ def sum_array(array)
 end 
 
 def add_s(array)
-  what = array.each_with_index
-  binding.pry
+  array.each_with_index |element, index|
+    if index != 1
+      element << "s"
+    end 
+  end 
 end 
