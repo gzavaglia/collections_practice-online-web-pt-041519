@@ -49,3 +49,8 @@ def sum_array(array)
   end #end while 
   sum 
 end 
+
+def add_s(array)
+  wut = array.each_with_index.collect{|element, index|}
+  binding.pry 
+end 
